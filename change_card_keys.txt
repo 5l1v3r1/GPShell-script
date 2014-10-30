@@ -1,0 +1,7 @@
+mode_211
+establish_context
+card_connect
+open_sc -security 3 -keyind 0 -keyver 0 -mac_key 404142434445464748494a4b4c4d4e4f -enc_key 404142434445464748494a4b4c4d4e4f -kek_key 404142434445464748494a4b4c4d4e4f
+put_sc_key -keyver 0 -newkeyver 1 -mac_key 000102030405060708090a0b0c0d0e0f -enc_key 000102030405060708090a0b0c0d0e0f -kek_key 000102030405060708090a0b0c0d0e0f
+card_disconnect
+release_context
